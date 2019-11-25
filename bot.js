@@ -1,6 +1,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+const client4 = new Discord.Client();
+const client5 = new Discord.Client();
+const client6 = new Discord.Client();
+const client7 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -39,6 +44,17 @@ client.on('message', message => {
     }
 });
 
+client2.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
 
 client2.on('message', message => {
     if(message.content === '$Daily'){
@@ -64,6 +80,19 @@ client2.on('message', message => {
     }
 });
 
+client3.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
+
+
 client3.on('message', message => {
     if(message.content === '$Daily'){
         message.channel.send('#daily')
@@ -87,6 +116,19 @@ client3.on('message', message => {
         message.channel.send('#rep <@537675177677291530>')
     }
 });
+
+client4.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
+
 
 client4.on('message', message => {
     if(message.content === '$Daily'){
@@ -112,6 +154,19 @@ client4.on('message', message => {
     }
 });
 
+client5.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
+
+
 client5.on('message', message => {
     if(message.content === '$Daily'){
         message.channel.send('#daily')
@@ -136,6 +191,19 @@ client5.on('message', message => {
     }
 });
 
+client6.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
+
+
 client6.on('message', message => {
     if(message.content === '$Daily'){
         message.channel.send('#daily')
@@ -159,6 +227,19 @@ client6.on('message', message => {
         message.channel.send('#rep <@537675177677291530>')
     }
 });
+
+client7.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : KING `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
+
 
 client7.on('message', message => {
     if(message.content === '$Daily'){
